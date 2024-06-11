@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import globeImage from '../img/background.png';
 
 
-const HeroSection = styled.section`
+const BannerSection = styled.section`
   position: relative;
   background-size: cover;
   background-position: center;
@@ -13,16 +13,16 @@ const HeroSection = styled.section`
   min-height: 400px;
 `;
 
-const HeroTitle = styled.h1`
+const BannerTitle = styled.h1`
   font-size: 3em;
   margin-bottom: 20px;
 `;
 
-const HeroText = styled.p`
+const BannerText = styled.p`
   font-size: 1.2em;
 `;
 
-const HeroButton = styled.button`
+const BannerButton = styled.button`
   background-color: #00796b;
   color: white;
   border: none;
@@ -36,14 +36,14 @@ const HeroButton = styled.button`
   }
 `;
 
-function Hero() {
+function Banner() {
   return (
-    <HeroSection>
-      <HeroTitle>Virtual Travel Experience</HeroTitle>
-      <HeroText>Explore the world from the comfort of your home</HeroText>
-      <HeroButton>Get Started</HeroButton>
-    </HeroSection>
+    <BannerSection>
+      <BannerTitle>Virtual Travel Experience</BannerTitle>
+      <BannerText>Explore the world from the comfort of your home</BannerText>
+      <BannerButton>Get Started</BannerButton>
+    </BannerSection>
   );
 }
 
-export default Hero;
+export default Banner;

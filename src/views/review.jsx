@@ -65,7 +65,7 @@ const ReviewPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!userName.trim() || !reviewText.trim()) {
-      alert('Please enter your name and review.');
+      alert('이름 및 리뷰를 적어주세요');
       return;
     }
 

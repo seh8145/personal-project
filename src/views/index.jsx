@@ -1,16 +1,14 @@
 import React from 'react';
 import Carousel from "../components/layout/carousel"
-import Hero from "../components/layout/hero"
+import Banner from "../components/layout/banner"
 import Layout from "../components/layout/layout"
 
 const HomePage = () => {
   return (
-    <div>
-      <Layout />
-      <Hero />
+      <Layout>
+      <Banner />
       <Carousel />
-      
-    </div>
+      </Layout>     
   )
 }
 
