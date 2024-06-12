@@ -25,7 +25,7 @@ db.connect(err => {
   }
 });
 
-// 리뷰 가져오기
+
 app.get('/reviews', (req, res) => {
   const sql = 'SELECT * FROM reviews';
   db.query(sql, (err, results) => {
@@ -37,7 +37,7 @@ app.get('/reviews', (req, res) => {
   });
 });
 
-// 리뷰 추가
+
 app.post('/reviews', (req, res) => {
   const { user_name, review_text } = req.body;
 

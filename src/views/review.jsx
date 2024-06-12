@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
-import Layout from '../components/layout/layout'; // 올바른 파일 경로 및 이름 확인
+import Layout from '../components/layout/layout';
 
 const ReviewContainer = styled.div`
   padding: 20px;
