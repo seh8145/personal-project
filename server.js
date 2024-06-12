@@ -9,7 +9,6 @@ const port = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// MySQL 연결 설정
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
